@@ -9,7 +9,7 @@ const palindromes = function (sentence) {
         }
         newSentence += lowSentence[i];
     }
-    flipSentence = newSentence.split('').reverse().join('');
+    flipSentence = newSentence.split('').reverse().join('');   
     if (newSentence == flipSentence) return true;
     else return false;
 
